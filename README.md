@@ -6,7 +6,7 @@ azathoth - HTTP benchmark and load generator tool
 SYNOPSIS
 --------
 
-    azathoth <options> http://example.com:8080/
+    azathoth.js <options> http://example.com:8080/
 
 DESCRIPTION
 -----------
