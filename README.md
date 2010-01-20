@@ -1,7 +1,7 @@
 NAME
 ----
 
-azathoth - HTTP benchmark and load generator tool
+    azathoth - HTTP benchmark and load generator tool
 
 SYNOPSIS
 --------
@@ -11,8 +11,11 @@ SYNOPSIS
 DESCRIPTION
 -----------
 
-azathoth is for generating lots of HTTP traffic. By utilizing Node.js's powerful
-asynchronous abilities it's possible to create an enormous number of requests.
+    azathoth is for generating lots of HTTP traffic. By utilizing Node.js's
+    powerful asynchronous abilities it's possible to create an enormous number
+    of requests.
+
+----
 
     Outside the ordered universe that amorphous blight of nethermost confusion
     which blasphemes  and bubbles at the center of all infinity; the boundless
@@ -24,9 +27,8 @@ asynchronous abilities it's possible to create an enormous number of requests.
 OPTIONS
 -------
     
-    -c Number of concurrent connections to to use. Each client will make a
-       number of requests equal to this number divided by the number of total
-       requests.
+    -c Number of concurrent connections to use. Each client will make a
+       number of requests equal to the total number of requests divided by this number.
 
     -n Total number of requests to make.
 
@@ -36,13 +38,14 @@ OPTIONS
 ENVIRONMENT
 -----------
 
+    azathoth requires node to be installed somewhere on your path.
 
 AUTHOR
 ------
 
-Orlando Vazquez <ovazquez@gmail.com>
+    Orlando Vazquez <ovazquez@gmail.com>
 
 SEE ALSO
 --------
 
-ab(1)
+    ab(1)
