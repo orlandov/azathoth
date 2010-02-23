@@ -15,6 +15,11 @@ DESCRIPTION
     powerful asynchronous abilities it's possible to create an enormous number
     of requests.
 
+    *Note*: azathoth is a very small and very simple proof of concept. Anyone
+    interested in using node for this kind of work should use
+    http://github.com/benschmaus/nodeload which adds a lot of value and 
+    functionality on this idea.
+
 ----
 
     Outside the ordered universe that amorphous blight of nethermost confusion
